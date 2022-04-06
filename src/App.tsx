@@ -19,6 +19,7 @@ export function App() {
 	function handleCloseNewTransactionModal() {
 		setIsNewTransactionModalOpen(false);
 	}
+	console.log("batata");
 
 	return (
 		<TransactionsProvider>
